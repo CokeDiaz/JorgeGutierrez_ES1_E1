@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registro Socio</title>
+    <link rel="stylesheet" href="registro.css" />
+</head>
+<body>
+    <div class="registro-container">
+        <img src="imagenes/logo.svg" alt="Logo El Rincón del Manga" class="logo">
+        <h2>Hazte Socio en El Rincón del Manga</h2>
+        <form id="registroForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required />
+
+            <label for="rut">RUT o Pasaporte:</label>
+            <input type="text" id="rut" name="rut" required/>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required />
+
+            <label for="tarjeta">Número de Tarjeta:</label>
+            <input type="text" id="tarjeta" name="tarjeta" required title="Ingrese solo números, entre 13 y 16 dígitos" />
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required />
+
+            <label for="pais">País:</label>
+            <select id="pais" name="pais" required>
+                <option value="">Seleccione un país</option>
+                <option value="Chile">Chile</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Perú">Perú</option>
+                <option value="México">México</option>
+                <option value="España">España</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Uruguay">Uruguay</option>
+            </select>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required />
+
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>

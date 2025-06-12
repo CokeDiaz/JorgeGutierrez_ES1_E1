@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />   
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <header>
+        <div class="menu container">
+            <img class="logo-1" src="imagenes/logo.svg" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="imagenes/logo.svg" alt="">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#">Redes Sociales</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/elrincondelmanga" target="_blank"><div class="social"><img src="imagenes/s1.svg" alt=""></div></a>
+                        <a href="https://www.twitter.com/elrincondelmanga" target="_blank"><div class="social"><img src="imagenes/s2.svg" alt=""></div></a>
+                        <a href="https://www.instagram.com/elrincondelmanga_" target="_blank"><div class="social"><img src="imagenes/s3.svg" alt=""></div></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-text">
+                                <h1>Novedades</h1>
+                                <p>Novedades en Stock</p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Reserva</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider1.0.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-text">
+                                <h1>Clásicos</h1>
+                                <p>Los mejores clásicos</p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Reservar</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider2.0.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-text">
+                                <h1>Dirección</h1>
+                                <p>
+                                    Encuéntranos en Avenida Granaderos #2015<br>
+                                    Segundo Piso<br>
+                                    Calama
+                                </p>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider3.0.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div> 
+
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div> 
+
+        </div> 
+    </header>
+
+    <main class="products">
+        <div class="tabs container">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Pagina 1</label>
+
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="imagenes/Given.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Manga</h4>
+                                    <p>Given</p>
+                                    <span class="price">$15.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                   
+                                    <img src="imagenes/TR.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Manga</h4>
+                                    <p>Tokio Revengers</p>
+                                    <span class="price">$20.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                   
+                                    <img src="imagenes/DN.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Manga</h4>
+                                    <p>Death Note</p>
+                                    <span class="price">$18.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Pagina 2</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="imagenes/Given1.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Manga</h4>
+                                    <p>Given</p>
+                                    <span class="price">$15.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="imagenes/TR1.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Manga</h4>
+                                    <p>Tokio Revengers</p>
+                                    <span class="price">$20.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                   
+                                    <img src="imagenes/DN1.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Manga</h4>
+                                    <p>Death Note</p>
+                                    <span class="price">$18.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Pagina 3</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="imagenes/Given2.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Manga</h4>
+                                    <p>Given</p>
+                                    <span class="price">$15.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    
+                                    <img src="imagenes/TR2.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Manga</h4>
+                                    <p>Tokio Revengers</p>
+                                    <span class="price">$20.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                  
+                                    <img src="imagenes/DN2.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Manga</h4>
+                                    <p>Death Note</p>
+                                    <span class="price">$18.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+    <section class="info container">
+
+        <div class="info-img">
+            <img src="imagenes/info.svg" alt="">           
+        </div>
+
+        <div class="info-txt">
+            <h2>Quienes Somos</h2>
+            <p>
+                Aquí, tu pasión por el manga alcanza nuevas dimensiones. Únete a nuestra comunidad, expande tus horizontes y vive cada historia al máximo
+            </p>
+            <a href="registro.html" class="btn-2" target="_blank">Hazte Socio</a>
+        </div>
+
+    </section>
+
+    <section class="horario">
+        <div class="horario-info container">
+            
+            <h2>Informacion</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Direccion</h4>
+                <p>
+                    Granaderos #2015
+                </p>
+                </div>  
+                 <div class="txt">
+                    <h4>Horario</h4>
+                <p>
+                    Lunes a Viernes : 10:30 am - 18:30 pm
+                </p>
+                </div> 
+                 <div class="txt">
+                    <h4>Numero Contacto</h4>
+                <p>
+                    +56962525452
+                </p>
+                </div>
+                 <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/elrincondelmanga" target="_blank">
+                            <div class="social">
+                                <img src="imagenes/s1.svg" alt="">
+
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="socials">
+                        <a href="https://www.twitter.com/elrincondelmanga" target="_blank">
+                            <div class="social">
+                                <img src="imagenes/s2.svg" alt="">
+
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/elrincondelmanga_" target="_blank">
+                            <div class="social">
+                                <img src="imagenes/s3.svg" alt="">
+
+                            </div>
+                        </a>
+
+                    </div>
+             
+                </div>              
+            </div>
+            
+
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58994.2826567042!2d-68.92338545!3d-22.4612725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ab978f95a58b0d%3A0xfe7a093627c72306!2sCalama%2C%20Antofagasta!5e0!3m2!1ses-419!2scl!4v1749717293941!5m2!1ses-419!2scl" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <footer class="footer container">
+
+        <img class="logo-2" src="imagenes/logo.svg" alt="">
+        <div class="links">
+            <h4>Siguenos en:</h4>
+            <ul>
+                <li> <a href="https://www.instagram.com/elrincondelmanga_" target="_blank">https://www.instagram.com/elrincondelmanga_</a></li>
+                
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Donde Encontrarnos</h4>
+            <div class="socials">
+                        <a href="https://www.facebook.com/elrincondelmanga" target="_blank">
+                            <div class="social">
+                                <img src="imagenes/s1.svg" alt="">
+
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="socials">
+                        <a href="https://www.twitter.com/elrincondelmanga" target="_blank">
+                            <div class="social">
+                                <img src="imagenes/s2.svg" alt="">
+
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/elrincondelmanga_" target="_blank">
+                            <div class="social">
+                                <img src="imagenes/s3.svg" alt="">
+
+                            </div>
+                        </a>
+
+                    </div>
+           
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
